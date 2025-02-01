@@ -21,14 +21,14 @@ This is a simple command-line To-Do List application written in Go. It allows us
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/debo98/GoLang-ToDo-List.git
+   cd src
    ```
 
 2. Build the application:
 
    ```bash
-   go build main.go
+   go build .
    ```
 
 ### Usage
@@ -36,7 +36,7 @@ This is a simple command-line To-Do List application written in Go. It allows us
 1. Run the application:
 
    ```bash
-   ./main
+   ./src
    ```
 
 2. Follow the on-screen menu to manage your tasks:
@@ -44,4 +44,3 @@ This is a simple command-line To-Do List application written in Go. It allows us
    - Enter `2` to view all tasks.
    - Enter `3` to mark a task as completed.
    - Enter `4` to exit the application.
-
